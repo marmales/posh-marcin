@@ -9,4 +9,3 @@ function Push-All {
     git commit -m $CommitMessage
     git push
 }
-Export-ModuleMember -Function Push-All
